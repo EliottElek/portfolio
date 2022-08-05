@@ -19,13 +19,13 @@ const LogoItemProject = ({ item }) => {
 const Project = ({ project }) => {
   return (
     <Layout>
-      <div className="p-2 pt-14 md:p-14">
-        <div className="font-semibold p-8">
+      <div className="p-2 pt-14 md:p-14 z-50">
+        <div className="font-semibold p-8 z-50 cursor-pointer">
           <Link href="/#projects">
-            <p className="flex items-center gap-2 text-green-500 cursor-pointer">
+            <a className="flex items-center gap-2 text-green-500 cursor-pointer">
               <AiOutlineArrowLeft />
               View other projects
-            </p>
+            </a>
           </Link>
         </div>
         <div className="flex mt-4 items-center gap-3">

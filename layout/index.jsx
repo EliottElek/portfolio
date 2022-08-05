@@ -4,8 +4,8 @@ import Particles from "./Particules";
 const Layout = ({ children }) => {
   return (
     <div>
-      <Navigation />
       <Particles />
+      <Navigation />
       {children}
     </div>
   );

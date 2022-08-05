@@ -78,7 +78,6 @@ const Page = () => {
           },
         },
         interactivity: {
-          detect_on: "canvas",
           events: {
             onhover: {
               enable: true,
