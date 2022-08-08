@@ -6,7 +6,7 @@ import { AiOutlineArrowLeft } from "react-icons/ai";
 import { projects, paths } from "../../content";
 import { FaGithub } from "react-icons/fa";
 import { FiExternalLink } from "react-icons/fi";
-import Carousel from "../../components/Slider";
+import { motion } from "framer-motion";
 const LogoItemProject = ({ item }) => {
   return (
     <li className="flex rounded-full items-center gap-3 pl-2 m-2">
@@ -84,7 +84,6 @@ const Project = ({ project }) => {
             </ul>
           </div>
         </div>
-        <Carousel images={[project.image, project.image, project.image]} />
         <h2 className="text-xl dark:text-gray-100">Motivation</h2>
         <p className="dark:text-gray-100">{project.description}</p>
       </div>

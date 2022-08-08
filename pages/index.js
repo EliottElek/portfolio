@@ -4,7 +4,7 @@ import Hero from "../layout/Hero";
 import Projects from "../layout/Projects";
 import Skills from "../layout/Skills";
 import Contact from "../layout/Contact";
-
+import { motion } from "framer-motion";
 export default function Home() {
   return (
     <div>
