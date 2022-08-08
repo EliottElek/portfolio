@@ -40,10 +40,10 @@ function Contact() {
           <div>
             <div className="py-10 lg:col-span-2">
               <p>
-                Looking for more informations about our services and offers? Or
-                even to join us? Feel free to contact us.
+                You want more information about one of my projects, or simply
+                want to get in touch with me ?
               </p>
-              <p>We'll be happy to reply as quickly as we can.</p>
+              <p>Send me a message, I'll be very happy to reply to you.</p>
               <form
                 onSubmit={handleSubmit(onSubmit)}
                 className="mt-6 grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8"
@@ -63,7 +63,7 @@ function Contact() {
                       {...register("firstname")}
                       autoComplete="given-name"
                       className="py-3 px-4 block w-full text-warm-gray-900 bg-transparent border-opacity-40
-                      outline-none focus:border-b-green-500  border-b-2 border-b-green-400 border-warm-gray-300"
+                      outline-none focus:border-b-green-500  border-b-2 border-b-green-400 rounded-none border-warm-gray-300"
                     />
                   </div>
                 </div>
@@ -82,7 +82,7 @@ function Contact() {
                       {...register("lastname")}
                       autoComplete="family-name"
                       className="py-3 px-4 block w-full text-warm-gray-900 bg-transparent border-opacity-40
- outline-none focus:border-b-green-500  border-b-2 border-b-green-400 border-warm-gray-300"
+ outline-none focus:border-b-green-500  border-b-2 border-b-green-400 rounded-none border-warm-gray-300"
                     />
                   </div>
                 </div>
@@ -101,7 +101,7 @@ function Contact() {
                       type="email"
                       autoComplete="email"
                       className="py-3 px-4 block w-full text-warm-gray-900 bg-transparent border-opacity-40
- outline-none focus:border-b-green-500  border-b-2 border-b-green-400 border-warm-gray-300"
+ outline-none focus:border-b-green-500  border-b-2 border-b-green-400 rounded-none border-warm-gray-300"
                     />
                   </div>
                 </div>
@@ -123,7 +123,7 @@ function Contact() {
                       {...register("phone")}
                       autoComplete="tel"
                       className="py-3 px-4 block w-full text-warm-gray-900 bg-transparent border-opacity-40
- outline-none focus:border-b-green-500  border-b-2 border-b-green-400 border-warm-gray-300"
+ outline-none focus:border-b-green-500  border-b-2 border-b-green-400 rounded-none border-warm-gray-300"
                       aria-describedby="phone-optional"
                     />
                   </div>
@@ -147,7 +147,7 @@ function Contact() {
                       {...register("message")}
                       rows={4}
                       className="py-3 px-4 block w-full text-warm-gray-900 bg-transparent border-opacity-40
- outline-none focus:border-b-green-500  border-b-2 border-b-green-400 border-warm-gray-300"
+ outline-none focus:border-b-green-500  border-b-2 border-b-green-400 rounded-none border-warm-gray-300"
                       aria-describedby="message-max"
                       defaultValue={""}
                     />

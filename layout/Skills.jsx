@@ -16,7 +16,7 @@ const Skills = () => {
         <p className='text-lg tracking-widest uppercase text-green-500'>
           Skills
         </p>
-        <h2 className='py-4'>What I've learned</h2>
+        <h2 className='py-4'>My favorite tools</h2>
         <div className='grid grid-cols-2 lg:grid-cols-4 gap-8'>
           <div className='p-6 border border-gray-300 rounded-xl ease-in duration-300'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
