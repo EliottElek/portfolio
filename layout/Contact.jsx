@@ -62,7 +62,7 @@ function Contact() {
                       placeholder="John"
                       {...register("firstname")}
                       autoComplete="given-name"
-                      className="py-3 px-4 block w-full text-warm-gray-900 bg-transparent border-opacity-40
+                      className="py-3 block w-full text-warm-gray-900 bg-transparent border-opacity-40
                       outline-none focus:border-b-green-500  border-b-2 border-b-green-400 rounded-none border-warm-gray-300"
                     />
                   </div>
@@ -81,7 +81,7 @@ function Contact() {
                       placeholder="Doe"
                       {...register("lastname")}
                       autoComplete="family-name"
-                      className="py-3 px-4 block w-full text-warm-gray-900 bg-transparent border-opacity-40
+                      className="py-3 block w-full text-warm-gray-900 bg-transparent border-opacity-40
  outline-none focus:border-b-green-500  border-b-2 border-b-green-400 rounded-none border-warm-gray-300"
                     />
                   </div>
@@ -100,7 +100,7 @@ function Contact() {
                       {...register("email")}
                       type="email"
                       autoComplete="email"
-                      className="py-3 px-4 block w-full text-warm-gray-900 bg-transparent border-opacity-40
+                      className="py-3 block w-full text-warm-gray-900 bg-transparent border-opacity-40
  outline-none focus:border-b-green-500  border-b-2 border-b-green-400 rounded-none border-warm-gray-300"
                     />
                   </div>
@@ -122,7 +122,7 @@ function Contact() {
                       placeholder="+33 6 12 23 43 23"
                       {...register("phone")}
                       autoComplete="tel"
-                      className="py-3 px-4 block w-full text-warm-gray-900 bg-transparent border-opacity-40
+                      className="py-3 block w-full text-warm-gray-900 bg-transparent border-opacity-40
  outline-none focus:border-b-green-500  border-b-2 border-b-green-400 rounded-none border-warm-gray-300"
                       aria-describedby="phone-optional"
                     />
@@ -146,7 +146,7 @@ function Contact() {
                       placeholder="Your portfolio looks awesome Eliott."
                       {...register("message")}
                       rows={4}
-                      className="py-3 px-4 block w-full text-warm-gray-900 bg-transparent border-opacity-40
+                      className="py-3 block w-full text-warm-gray-900 bg-transparent border-opacity-40
  outline-none focus:border-b-green-500  border-b-2 border-b-green-400 rounded-none border-warm-gray-300"
                       aria-describedby="message-max"
                       defaultValue={""}
