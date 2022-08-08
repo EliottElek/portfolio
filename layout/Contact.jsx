@@ -26,7 +26,7 @@ function Contact() {
   return (
     <div
       id="contact"
-      className="max-w-[1240px] mx-auto flex flex-col justify-center h-full  mt-20 dark:text-gray-100"
+      className="max-w-[1240px] mx-auto flex flex-col justify-center h-full p-2  mt-20 dark:text-gray-100"
     >
       <div className="">
         <p className="text-lg tracking-widest uppercase text-green-500">
