@@ -6,6 +6,7 @@ import { AiOutlineArrowLeft } from "react-icons/ai";
 import { projects, paths } from "../../content";
 import { FaGithub } from "react-icons/fa";
 import { FiExternalLink } from "react-icons/fi";
+import Carousel from "../../components/Slider";
 const LogoItemProject = ({ item }) => {
   return (
     <li className="flex rounded-full items-center gap-3 pl-2 m-2">
@@ -19,8 +20,8 @@ const LogoItemProject = ({ item }) => {
 const Project = ({ project }) => {
   return (
     <Layout>
-      <div className="p-2 pt-14 md:p-14 z-50">
-        <div className="font-semibold p-8 z-50 cursor-pointer">
+      <div className="p-2 pt-14 md:p-14 z-10">
+        <div className="font-semibold p-8 z-10 cursor-pointer">
           <Link href="/#projects">
             <a className="flex items-center gap-2 text-green-500 cursor-pointer">
               <AiOutlineArrowLeft />
@@ -54,7 +55,7 @@ const Project = ({ project }) => {
                   target="_blank"
                   rel="noreferrer"
                   href={project.github}
-                  className="text-center mt-2 flex items-center gap-2 p-2 md:p-3 group rounded-lg bg-green-500 text-white font-bold text-sm cursor-pointer"
+                  className="text-center mt-2 flex items-center gap-2 p-2 md:p-3 group rounded-lg bg-green-500 hover:bg-green-600 text-white font-bold text-sm cursor-pointer"
                 >
                   <FaGithub className="h-6 w-6" />
                   View in GitHub
@@ -83,6 +84,7 @@ const Project = ({ project }) => {
             </ul>
           </div>
         </div>
+        <Carousel images={[project.image, project.image, project.image]} />
         <h2 className="text-xl dark:text-gray-100">Motivation</h2>
         <p className="dark:text-gray-100">{project.description}</p>
       </div>

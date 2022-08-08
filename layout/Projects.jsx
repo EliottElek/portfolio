@@ -21,8 +21,8 @@ import ProjectItem from "./ProjectItem";
 
 const Projects = () => {
   return (
-    <div id="projects" className="w-full z-50">
-      <div className="max-w-[1240px] mx-auto px-2 py-16 z-50">
+    <div id="projects" className="w-full z-10">
+      <div className="max-w-[1240px] mx-auto px-2 py-16 z-10">
         <p className="text-xl tracking-widest uppercase text-green-500">
           Projects
         </p>
@@ -88,7 +88,7 @@ const Projects = () => {
             target="_blank"
             rel="noreferrer"
             href="https://github.com/EliottElek"
-            className="text-center mt-2 flex items-center gap-2 p-2 md:p-3 group rounded-lg bg-green-500 text-white font-bold text-sm cursor-pointer"
+            className="text-center mt-2 flex items-center gap-2 p-2 md:p-3 group rounded-lg bg-green-500 hover:bg-green-600 text-white font-bold text-sm cursor-pointer"
           >
             <FaGithub className="h-6 w-6" /> View all my projects on GitHub
           </a>

@@ -40,7 +40,7 @@ const ProjectItem = ({
         <div className="flex items-center gap-4">
           {demoUrl && (
             <a href={demoUrl} target="_blank" rel="noreferrer">
-              <p className="text-center mt-2 flex items-center gap-2 p-2 md:p-3 group rounded-lg bg-green-500 text-white font-bold text-sm cursor-pointer">
+              <p className="text-center mt-2 flex items-center gap-2 p-2 md:p-3 group rounded-lg bg-green-500 hover:bg-green-600 text-white font-bold text-sm cursor-pointer">
                 Live demo
               </p>
             </a>
