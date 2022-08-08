@@ -3,6 +3,7 @@ import Layout from "../layout";
 import Hero from "../layout/Hero";
 import Projects from "../layout/Projects";
 import Skills from "../layout/Skills";
+import Contact from "../layout/Contact";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
         <Hero />
         <Projects />
         <Skills />
+        <Contact />
       </Layout>
     </div>
   );
