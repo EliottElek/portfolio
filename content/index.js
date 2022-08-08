@@ -33,8 +33,7 @@ export const projects = [
       { name: "Material UI", logo: MuiLogo },
       { name: "Apollo Client", logo: Apollo },
     ],
-    description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nibh lorem, consectetur at ante facilisis, hendrerit sollicitudin nunc. Integer id sodales tellus, vitae venenatis tortor. Vivamus tincidunt nibh sed diam porta consectetur. Nullam sollicitudin, odio et ornare dictum, urna ex vulputate urna, nec tempor dolor quam ut nibh. Nullam non ligula eu tellus mattis vehicula vitae nec ipsum. Suspendisse eget ex metus. Quisque in molestie mauris. Quisque scelerisque magna et ante euismod egestas.
-    Nam vulputate justo vitae elit viverra pellentesque. Sed tellus est, pulvinar in ipsum eget, volutpat convallis ligula. Donec at ullamcorper tortor. Donec dapibus ipsum id lacus molestie imperdiet. Fusce a felis fringilla, hendrerit sem vestibulum, sagittis turpis. Donec feugiat justo pharetra consectetur tempor. Duis eget pellentesque nunc, eget lacinia dui. Nulla dapibus, enim vitae finibus ullamcorper, nisi tortor consequat ligula, a malesuada leo ipsum eget est. Donec ut ex sed felis mattis luctus.`,
+    description: `Kifekoi is a project management application, ment to be a collaborative platform. It features drag & drop features (with react-beautiful-dnd by Atlassian). The application works as follows : each client has projects, and each project has multiple panels. Each panel or "table" has status for each of their actions. You can add, delete and update actions, add panels to the project or status for each panel. You can change the state of each actions by drag & drop for example. `,
   },
   {
     slug: "wazzup",

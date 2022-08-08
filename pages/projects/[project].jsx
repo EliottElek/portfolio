@@ -39,7 +39,7 @@ const Project = ({ project }) => {
           <div className="lg:max-w-[70%] w-full relative flex items-center justify-center group rounded-lg hover:bg-gradient-to-r from-green-700 to-gray-800 bg-transparent delay-150 transition-all">
             <Image
               alt={project.image}
-              src={project.image}
+              src={project.gif ? project.gif : project.image}
               className="rounded-lg border object-contain group-hover:opacity-10"
             />
             <div className="opacity-0 flex flex-col items-center delay-75 transition-all justify-center group-hover:opacity-100 absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]">
