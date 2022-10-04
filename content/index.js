@@ -2,6 +2,7 @@ import Kifekoi from "../public/assets/projects/kifekoi/kifekoi1.png";
 import Wazzup from "../public/assets/projects/wazzup/wazzup1.png";
 import Chateex from "../public/assets/projects/chateex/chateex1.png";
 import Cds from "../public/assets/projects/couteaux-du-sud/cds1.png";
+import Alliage from "../public/assets/projects/alliage/alliage1.png";
 import MuiLogo from "../public/assets/logos/mui.png";
 import ReactLogo from "../public/assets/logos/react.png";
 import GraphQl from "../public/assets/logos/graphql.png";
@@ -40,8 +41,8 @@ export const projects = [
     name: "Wazzup",
     image: Wazzup,
     hours: "70",
-    demo: "https://kifekoi.netlify.app",
-    github: "https://github/eliottelek/kifekoi",
+    // demo: "https://kifekoi.netlify.app",
+    github: "https://github.com/EliottElek/chat-app-t3",
     backTechs: [
       { name: "Prisma", logo: Prisma },
       { name: "TRPC", logo: Trpc },
@@ -60,8 +61,8 @@ export const projects = [
     name: "Chateex",
     image: Chateex,
     hours: "350",
-    demo: "https://kifekoi.netlify.app",
-    github: "https://github/eliottelek/kifekoi",
+    demo: "https://chateex.netlify.app/",
+    github: "https://github.com/EliottElek/ChatAppEce",
     backTechs: [
       { name: "NodeJS + Express", logo: Node },
       { name: "GraphQL", logo: GraphQl },
@@ -79,8 +80,8 @@ export const projects = [
     slug: "couteaux-du-sud",
     name: "Couteaux du sud",
     hours: "250",
-    demo: "https://kifekoi.netlify.app",
-    github: "https://github/eliottelek/kifekoi",
+    demo: "https://couteaux-du-sud.netlify.app",
+    github: "https://github.com/EliottElek/e-commerce",
     image: Cds,
     backTechs: [{ name: "CommerceJS", logo: Commercejs }],
     frontTechs: [
@@ -91,10 +92,25 @@ export const projects = [
     description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nibh lorem, consectetur at ante facilisis, hendrerit sollicitudin nunc. Integer id sodales tellus, vitae venenatis tortor. Vivamus tincidunt nibh sed diam porta consectetur. Nullam sollicitudin, odio et ornare dictum, urna ex vulputate urna, nec tempor dolor quam ut nibh. Nullam non ligula eu tellus mattis vehicula vitae nec ipsum. Suspendisse eget ex metus. Quisque in molestie mauris. Quisque scelerisque magna et ante euismod egestas.
     Nam vulputate justo vitae elit viverra pellentesque. Sed tellus est, pulvinar in ipsum eget, volutpat convallis ligula. Donec at ullamcorper tortor. Donec dapibus ipsum id lacus molestie imperdiet. Fusce a felis fringilla, hendrerit sem vestibulum, sagittis turpis. Donec feugiat justo pharetra consectetur tempor. Duis eget pellentesque nunc, eget lacinia dui. Nulla dapibus, enim vitae finibus ullamcorper, nisi tortor consequat ligula, a malesuada leo ipsum eget est. Donec ut ex sed felis mattis luctus.`,
   },
+  {
+    slug: "alliage",
+    name: "Alliage",
+    hours: "500",
+    demo: "https://www.alliage.io/",
+    image: Alliage,
+    backTechs: [{ name: "NodeJS", logo: Node }],
+    frontTechs: [
+      { name: "NextJS", logo: NextJs },
+      { name: "Tailwindcss", logo: Tailwind },
+    ],
+    description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nibh lorem, consectetur at ante facilisis, hendrerit sollicitudin nunc. Integer id sodales tellus, vitae venenatis tortor. Vivamus tincidunt nibh sed diam porta consectetur. Nullam sollicitudin, odio et ornare dictum, urna ex vulputate urna, nec tempor dolor quam ut nibh. Nullam non ligula eu tellus mattis vehicula vitae nec ipsum. Suspendisse eget ex metus. Quisque in molestie mauris. Quisque scelerisque magna et ante euismod egestas.
+    Nam vulputate justo vitae elit viverra pellentesque. Sed tellus est, pulvinar in ipsum eget, volutpat convallis ligula. Donec at ullamcorper tortor. Donec dapibus ipsum id lacus molestie imperdiet. Fusce a felis fringilla, hendrerit sem vestibulum, sagittis turpis. Donec feugiat justo pharetra consectetur tempor. Duis eget pellentesque nunc, eget lacinia dui. Nulla dapibus, enim vitae finibus ullamcorper, nisi tortor consequat ligula, a malesuada leo ipsum eget est. Donec ut ex sed felis mattis luctus.`,
+  },
 ];
 export const paths = [
   { params: { project: "kifekoi" } },
   { params: { project: "wazzup" } },
   { params: { project: "chateex" } },
   { params: { project: "couteaux-du-sud" } },
+  { params: { project: "alliage" } },
 ];

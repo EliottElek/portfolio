@@ -3,6 +3,7 @@ import Kifekoi from "../public/assets/projects/kifekoi/kifekoi1.png";
 import Chateex from "../public/assets/projects/chateex/chateex1.png";
 import Wazzup from "../public/assets/projects/wazzup/wazzup1.png";
 import Cds from "../public/assets/projects/couteaux-du-sud/cds1.png";
+import Alliage from "../public/assets/projects/alliage/alliage1.png";
 import MuiLogo from "../public/assets/logos/mui.png";
 import ReactLogo from "../public/assets/logos/react.png";
 import Babylon from "../public/assets/logos/babylon.png";
@@ -59,7 +60,7 @@ const Projects = () => {
             title="Chateex"
             backgroundImg={Chateex}
             seeMoreUrl="/projects/chateex"
-            demoUrl="https://kifekoi.netlify.app"
+            demoUrl="https://chateex.netlify.app/"
             description="First ever chat application, built for a school project."
             stack={[
               { name: "ReactJS", logo: ReactLogo },
@@ -80,6 +81,17 @@ const Projects = () => {
               { name: "Material UI", logo: MuiLogo },
               { name: "BabylonJS", logo: Babylon },
               { name: "CommerceJS", logo: Commercejs },
+            ]}
+          />
+          <ProjectItem
+            title="Alliage"
+            backgroundImg={Alliage}
+            demoUrl="https://alliage.io/"
+            seeMoreUrl="/projects/alliage"
+            description="A NextJS/TailwindCSS documentation plateform for Alliage."
+            stack={[
+              { name: "NextJS", logo: NextJs },
+              { name: "Tailwindcss", logo: Tailwind },
             ]}
           />
         </div>
