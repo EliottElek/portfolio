@@ -24,7 +24,7 @@ const Navigation = () => {
         "absolute z-10 right-0 left-0 top-0 pt-4 pl-4 pr-4 flex m-auto items-center md:justify-between justify-center gap-4 transition-all delay-50"
       }
     >
-      <a href="#contact" className="dark:text-gray-100 px-2 hidden md:flex">
+      <a href="/#contact" className="dark:text-gray-100 px-2 hidden md:flex">
         Want to get in touch ? Contact me !
       </a>
       <div className="flex items-center gap-4">

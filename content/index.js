@@ -3,9 +3,11 @@ import Wazzup from "../public/assets/projects/wazzup/wazzup1.png";
 import Chateex from "../public/assets/projects/chateex/chateex1.png";
 import Cds from "../public/assets/projects/couteaux-du-sud/cds1.png";
 import Alliage from "../public/assets/projects/alliage/alliage1.png";
+import MarkdownNotes from "../public/assets/projects/markdown-notes/markdown-notes1.png";
 import MuiLogo from "../public/assets/logos/mui.png";
 import ReactLogo from "../public/assets/logos/react.png";
 import GraphQl from "../public/assets/logos/graphql.png";
+import Supabase from "../public/assets/logos/supabase.png";
 import Apollo from "../public/assets/logos/apollo.png";
 import Node from "../public/assets/logos/node.png";
 import Babylon from "../public/assets/logos/babylon.png";
@@ -106,6 +108,21 @@ export const projects = [
     description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nibh lorem, consectetur at ante facilisis, hendrerit sollicitudin nunc. Integer id sodales tellus, vitae venenatis tortor. Vivamus tincidunt nibh sed diam porta consectetur. Nullam sollicitudin, odio et ornare dictum, urna ex vulputate urna, nec tempor dolor quam ut nibh. Nullam non ligula eu tellus mattis vehicula vitae nec ipsum. Suspendisse eget ex metus. Quisque in molestie mauris. Quisque scelerisque magna et ante euismod egestas.
     Nam vulputate justo vitae elit viverra pellentesque. Sed tellus est, pulvinar in ipsum eget, volutpat convallis ligula. Donec at ullamcorper tortor. Donec dapibus ipsum id lacus molestie imperdiet. Fusce a felis fringilla, hendrerit sem vestibulum, sagittis turpis. Donec feugiat justo pharetra consectetur tempor. Duis eget pellentesque nunc, eget lacinia dui. Nulla dapibus, enim vitae finibus ullamcorper, nisi tortor consequat ligula, a malesuada leo ipsum eget est. Donec ut ex sed felis mattis luctus.`,
   },
+  {
+    slug: "notes-md",
+    name: "Markdown Notes",
+    hours: "7",
+    demo: "https://notes-md.netlify.app/",
+    github: "https://github.com/eliottelek/note-taking-app",
+    image: MarkdownNotes,
+    backTechs: [{ name: "Supabase", logo: Supabase }],
+    frontTechs: [
+      { name: "NextJS", logo: NextJs },
+      { name: "Tailwindcss", logo: Tailwind },
+    ],
+    description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nibh lorem, consectetur at ante facilisis, hendrerit sollicitudin nunc. Integer id sodales tellus, vitae venenatis tortor. Vivamus tincidunt nibh sed diam porta consectetur. Nullam sollicitudin, odio et ornare dictum, urna ex vulputate urna, nec tempor dolor quam ut nibh. Nullam non ligula eu tellus mattis vehicula vitae nec ipsum. Suspendisse eget ex metus. Quisque in molestie mauris. Quisque scelerisque magna et ante euismod egestas.
+    Nam vulputate justo vitae elit viverra pellentesque. Sed tellus est, pulvinar in ipsum eget, volutpat convallis ligula. Donec at ullamcorper tortor. Donec dapibus ipsum id lacus molestie imperdiet. Fusce a felis fringilla, hendrerit sem vestibulum, sagittis turpis. Donec feugiat justo pharetra consectetur tempor. Duis eget pellentesque nunc, eget lacinia dui. Nulla dapibus, enim vitae finibus ullamcorper, nisi tortor consequat ligula, a malesuada leo ipsum eget est. Donec ut ex sed felis mattis luctus.`,
+  },
 ];
 export const paths = [
   { params: { project: "kifekoi" } },
@@ -113,4 +130,5 @@ export const paths = [
   { params: { project: "chateex" } },
   { params: { project: "couteaux-du-sud" } },
   { params: { project: "alliage" } },
+  { params: { project: "notes-md" } },
 ];

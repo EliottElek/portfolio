@@ -4,6 +4,7 @@ import Chateex from "../public/assets/projects/chateex/chateex1.png";
 import Wazzup from "../public/assets/projects/wazzup/wazzup1.png";
 import Cds from "../public/assets/projects/couteaux-du-sud/cds1.png";
 import Alliage from "../public/assets/projects/alliage/alliage1.png";
+import MarkdownNotes from "../public/assets/projects/markdown-notes/markdown-notes1.png";
 import MuiLogo from "../public/assets/logos/mui.png";
 import ReactLogo from "../public/assets/logos/react.png";
 import Babylon from "../public/assets/logos/babylon.png";
@@ -94,6 +95,17 @@ const Projects = () => {
               { name: "Tailwindcss", logo: Tailwind },
             ]}
           />
+          <ProjectItem
+            title="Markdown Notes"
+            backgroundImg={MarkdownNotes}
+            demoUrl="https://notes-md.netlify.app/"
+            seeMoreUrl="/projects/notes-md"
+            description="A NextJS/TailwindCSS/Supabase simple note taking app, with markdown support."
+            stack={[
+              { name: "NextJS", logo: NextJs },
+              { name: "Tailwindcss", logo: Tailwind },
+            ]}
+          />
         </div>
         <div className="flex items-center justify-center mt-12">
           <a
@@ -102,7 +114,7 @@ const Projects = () => {
             href="https://github.com/EliottElek"
             className="text-center mt-2 flex items-center gap-2 p-2 md:p-3 group rounded-lg bg-green-500 hover:bg-green-600 text-white font-bold text-sm cursor-pointer"
           >
-            <FaGithub className="h-6 w-6" /> View all my projects on GitHub
+            <FaGithub className="h-6 w-6" /> View all my 50+ projects on GitHub !
           </a>
         </div>
       </div>
