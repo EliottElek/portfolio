@@ -35,7 +35,7 @@ const Navigation = () => {
           <FaGithub />
         </CustomButton>
         <CustomButton
-          link={"https://www.linkedin.com/in/eliott-morcillo-4384101b9/"}
+          link={"https://www.linkedin.com/in/eliott-morcillo/"}
           title={"Eliott Morcillo (LinkedIn)"}
         >
           <FaLinkedinIn />
